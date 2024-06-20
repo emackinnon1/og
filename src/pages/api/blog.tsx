@@ -131,7 +131,7 @@ export default async function handler(req: NextRequest) {
                   Elliot Mackinnon
                 </p>
                 <p style={{ margin: 0 }} tw='text-xl mt-0 text-gray-300'>
-                  @th_clarence
+                  @emackinnon1
                 </p>
               </div>
             </div>
