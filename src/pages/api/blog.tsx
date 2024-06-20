@@ -71,7 +71,7 @@ export default async function handler(req: NextRequest) {
               style={{ margin: 0 }}
               tw={clsx('text-2xl font-normal text-gray-300')}
             >
-              theodorusclarence.com/blog
+              emackinnon.io/blog
             </h3>
             <h1 tw={clsx('mt-0', 'text-4xl leading-tight font-normal')}>
               <span
@@ -114,7 +114,7 @@ export default async function handler(req: NextRequest) {
             >
               <img
                 tw='w-[80px] rounded-full'
-                src='https://res.cloudinary.com/theodorusclarence/image/upload/c_fill,g_auto:face,h_160,w_160/v1673957822/theodorusclarence/about/self-3_square_jtiwai.jpg'
+                src='https://raw.githubusercontent.com/emackinnon1/folio-v2/main/public/images/portrait.jpg'
                 alt='Photo of me'
               />
               <div
@@ -128,7 +128,7 @@ export default async function handler(req: NextRequest) {
                   style={{ margin: 0 }}
                   tw='font-medium text-[1.6rem] mt-0 text-white'
                 >
-                  Theodorus Clarence
+                  Elliot Mackinnon
                 </p>
                 <p style={{ margin: 0 }} tw='text-xl mt-0 text-gray-300'>
                   @th_clarence
