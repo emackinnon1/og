@@ -8,7 +8,7 @@ import { deploymentURL } from '@/constant/env';
 const defaultMeta = {
   title: 'Open Graph Generator',
   siteName: 'Open Graph Generator',
-  description: 'Made for personal use by Elliot Mackinnoner',
+  description: 'Made for personal use by Elliot Mackinnon',
   url: deploymentURL,
   image: `${deploymentURL}/images/logo.jpg`,
   type: 'website',
@@ -48,6 +48,8 @@ export default function Seo(props: SeoProps) {
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
       <meta name='image' property='og:image' content={meta.image} />
+
+      {meta.date && (
         <>
           <meta property='article:published_time' content={meta.date} />
           <meta
