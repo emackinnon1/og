@@ -114,7 +114,7 @@ export default async function handler(req: NextRequest) {
             >
               <img
                 tw='w-[80px] rounded-full'
-                src='https://raw.githubusercontent.com/emackinnon1/folio-v2/main/public/images/oktoberfest.jpg'
+                src='https://raw.githubusercontent.com/emackinnon1/folio-v2/main/public/images/portrait.jpg'
                 alt='Photo of me'
               />
               <div
